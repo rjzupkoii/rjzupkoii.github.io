@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "R. Zupko II / Site Title"
+title                    : "R. Zupko II / Research Profile"
 title_separator          : "-"
 name                     : &name "Robert Zupko II"
 description              : &description "personal description"
