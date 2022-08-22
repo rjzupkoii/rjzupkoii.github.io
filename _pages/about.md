@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+[Boni Lab](https://mol.ax/) | [Center for Infectious Disease Dynamics](https://www.huck.psu.edu/institutes-and-centers/center-for-infectious-disease-dynamics) | [The Pennsylvania State University](https://www.psu.edu/)
+
 &nbsp;
 
 Computational Epidemiology
