@@ -10,6 +10,8 @@ redirect_from:
 
 [Boni Lab](https://mol.ax/) \| [Center for Infectious Disease Dynamics](https://www.huck.psu.edu/institutes-and-centers/center-for-infectious-disease-dynamics) \| [The Pennsylvania State University](https://www.psu.edu/)
 
+&nbsp;
+
 Research Software Engineering
 ======
 Research software engineering is a subdiscipline of software engineering that combines the the software engineering focus on design, development, testing, and maintenance of software applications with an in-depth understanding of the needs of scientific software, computing environments, and the reproducibility requirements of scientific research.  
