@@ -1,6 +1,6 @@
 ---
 title: "Deletion Risk Explorer"
-excerpt: "The <em>Deletion Risk Explorer</em> is an R Shiny app that was developed for the World Health Organization to allow policy makers to explore how countries may be at risk of rapid diagnostic test failures based policy and environmental changes.<br /><br /><img src='images/deletion-risk.png'>"
+excerpt: "The <em>Deletion Risk Explorer</em> is an R Shiny app that was developed for the World Health Organization to allow policy makers to explore how countries may be at risk of rapid diagnostic test failures based policy and environmental changes.<br /><br /><img src='/images/deletion-risk.png'>"
 collection: portfolio
 ---
 

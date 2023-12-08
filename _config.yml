@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "R. Zupko II / Research Profile"
+title                    : "R. Zupko II / Research Software Engineer"
 title_separator          : "-"
 name                     : &name "Robert Zupko II"
 description              : &description "personal description"
@@ -65,7 +65,7 @@ analytics:
 author:
   name             : "Robert Zupko II"
   avatar           : "profile.JPG"
-  bio              : "Computational epidemiology and complex systems research"
+  bio              : "Research software engineering and complex systems research"
   location         : "Penn State"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
