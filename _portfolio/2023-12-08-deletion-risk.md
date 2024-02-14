@@ -4,6 +4,6 @@ excerpt: "The <em>Deletion Risk Explorer</em> is an R Shiny app that was develop
 collection: portfolio
 ---
 
-Malaria rapid diagnostic tests (RDTs) are a critical component of public health responses to <em>Plasmodium falciparum </em>. However, the continued use of RDTs is being threatened by the emergence of parasite mutations that lack the relevant protein used in diagnostic testing. This R Shiny app was developed under contract to the World Health Organization with other researchers to allow policy makers to explore the factors that influence the spread of the mutations.
+Malaria rapid diagnostic tests (RDTs) are a critical component of public health responses to <em>Plasmodium falciparum</em>. However, the continued use of RDTs is being threatened by the emergence of parasite mutations that lack the relevant protein used in diagnostic testing. This R Shiny app was developed under contract to the World Health Organization with other researchers to allow policy makers to explore the factors that influence the spread of the mutations.
 
-The complete source code and some documentation can be found on GitHub at https://github.com/rjzupkoii/WHO-Malaria-pfhrp23 and the app will be linked once it has been approved by the World Health Organization.
+The complete source code and some documentation can be found on GitHub at https://github.com/rjzupkoii/WHO-Malaria-pfhrp23 and the app is currently hosted by the [World Health Organization](https://worldhealthorg.shinyapps.io/DeletionRiskExplorer).
