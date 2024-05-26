@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "R. Zupko II / Research Software Engineer"
+title                    : "R. Zupko II / Software Engineer & Data Scientist"
 title_separator          : "-"
 name                     : &name "Robert Zupko II"
 description              : &description "personal description"
