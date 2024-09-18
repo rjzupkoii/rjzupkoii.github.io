@@ -1,10 +1,10 @@
-# Workflow for building and deploying an Academic Pages / Jekyll site to GitHub Pages
-name: Deploy Academic Pages (Jekyll) with GitHub Pages Dependencies
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: [$default-branch]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,25 +28,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Trying to get history
-        run: git switch master && git pull && git log -5
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
-        with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Build with Jekyll
-        run: |
-          cd docs
-          ls -a
-          bundle install
-          bundle exec jekyll build --destination ../_site
-          grep "Created" -A5  ../_site/blog/2024/06/25/stop-the-go-and-docker-madness.html
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
